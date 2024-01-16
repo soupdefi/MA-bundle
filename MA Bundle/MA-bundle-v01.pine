@@ -1,0 +1,23 @@
+//@version=5
+indicator(title="MA Bundle", overlay=true, timeframe="", timeframe_gaps=true)
+
+// inputs 
+len24 = input.int(24, minval=1, title="24 EMA")
+len36 = input.int(36, minval=1, title="36 EMA")
+len100 = input.int(100, minval=1, title="100 SMA")
+len100x = input.int(100, minval=1, title="100 MA")
+len200 = input.int(200, minval=1, title="200 EMA")
+
+// definitions
+ema24 = ta.ema(close, len24)
+ema36 = ta.ema(close, len36)
+sma100 = ta.sma(close, len100)
+ema100 = ta.ema(close, len100x)
+ema200 = ta.ema(close, len200)
+
+// plotting
+plot(ema24, title="24 EMA", color=#ad00ff, linewidth=2)
+plot(ema36, title="36 EMA", color=#ff6fff, linewidth=2)
+plot(sma100, title="100 SMA", color=#ffff00, linewidth=2)
+plot(ema100, title="100 EMA", color=#00c3ff, linewidth=2)
+plot(ema200, title="200 EMA", color=#0000ff, linewidth=2)
