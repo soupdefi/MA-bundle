@@ -1,6 +1,6 @@
 # MA-bundle
 
-[https://www.tradingview.com/script/Er3XulaU-MA-Bundle/](View on TradingView)
+[See indicator on TradingView](https://www.tradingview.com/script/Er3XulaU-MA-Bundle/)
 
 Simple package of all the MAs/EMAs I use in conjunction.
 
