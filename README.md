@@ -1,9 +1,8 @@
 # MA-bundle
 
-[See indicator on TradingView](https://www.tradingview.com/script/Er3XulaU-MA-Bundle/)
-
 Simple package of all the MAs/EMAs I use in conjunction.
 
+- Orange: 13 EMA
 - Purple: 24 EMA
 - Pink: 36 EMA
 - Yellow: 100 SMA
